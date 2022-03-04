@@ -5,7 +5,8 @@
   "main": "./dist/package-test.js",
   "scripts": {
     "lint": "eslint *.js lib/*.js",
-    "build": "webpack",
+    "build": "webpack -w --config webpack.dev.js",
+    "build:prod": "webpack --config webpack.prod.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "pre-commit": [

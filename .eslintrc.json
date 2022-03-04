@@ -15,6 +15,7 @@
     "plugins": [
         "vue"
     ],
+    "ignorePatterns": ["dist/*.js"],
     "rules": {
         "indent": [
             "error",
