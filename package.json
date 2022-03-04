@@ -1,0 +1,24 @@
+{
+  "name": "package-test",
+  "version": "1.0.0",
+  "description": "test package publish workflow",
+  "main": "./dist/package-test.js",
+  "scripts": {
+    "build": "webpack",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "aga3134",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.17.5",
+    "@babel/plugin-transform-runtime": "^7.17.0",
+    "@babel/preset-env": "^7.16.11",
+    "@babel/runtime": "^7.17.2",
+    "@babel/runtime-corejs3": "^7.17.2",
+    "babel-loader": "^8.2.3",
+    "eslint": "^7.32.0",
+    "eslint-plugin-vue": "^8.5.0",
+    "webpack": "^5.70.0",
+    "webpack-cli": "^4.9.2"
+  }
+}
