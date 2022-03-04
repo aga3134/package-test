@@ -4,9 +4,11 @@
   "description": "test package publish workflow",
   "main": "./dist/package-test.js",
   "scripts": {
+    "lint": "eslint *.js lib/*.js",
     "build": "webpack",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "pre-commit": ["lint"],
   "author": "aga3134",
   "license": "MIT",
   "devDependencies": {

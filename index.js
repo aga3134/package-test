@@ -5,5 +5,5 @@ import {PrintName} from './lib/class.js';
 console.log(Func.Mul(3,4));
 const pn = PrintName();
 pn.print();*/
-
+var a = 1;
 export {Func, PrintName};
