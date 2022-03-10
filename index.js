@@ -1,9 +1,10 @@
 import * as Func from './lib/func.js';
-import {PrintName} from './lib/class.js';
+import {FuncClass} from './lib/class.js';
 
 /*console.log(Func.Add(1,2));
 console.log(Func.Mul(3,4));
-const pn = PrintName();
-pn.print();*/
+const fc = FuncClass(5,6);
+fc.Add();
+fc.Mul();*/
 
-export {Func, PrintName};
+export {Func, FuncClass};
